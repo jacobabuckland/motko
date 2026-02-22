@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "motkoai": {
+      "command": "node",
+      "args": ["/Users/jacob/motko/server.js"],
+      "env": {
+        "MOTKO_SESSION_TOKEN": "test-session-token-motko",
+        "SUPABASE_URL": "https://ghnmrayyzrfzirlxliam.supabase.co",
+        "SUPABASE_SERVICE_KEY":eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdobm1yYXl5enJmemlybHhsaWFtIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MTY4NTk5MCwiZXhwIjoyMDg3MjYxOTkwfQ.wPREVaCY2PonlW4XQiFAjhFo77pAc4-KPv2vkK30jHo
+      }
+    }
+  }
+}

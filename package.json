@@ -1,0 +1,24 @@
+{
+  "name": "motko",
+  "version": "1.0.0",
+  "description": "MCP server for Shopify/Klaviyo revenue leakage detection",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "onboarding": "node onboarding/server.js",
+    "briefing": "node jobs/morning_briefing.js",
+    "measure": "node jobs/measure_roi.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.37.0",
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@supabase/supabase-js": "^2.39.3",
+    "dotenv": "^16.4.1",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
