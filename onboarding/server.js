@@ -633,7 +633,7 @@ app.get('/success', (req, res) => {
 // ---------------------------------------------------------------------------
 // Start server
 // ---------------------------------------------------------------------------
-const PORT = Number(process.env.ONBOARDING_PORT ?? 3000);
+const PORT = Number(process.env.PORT ?? process.env.ONBOARDING_PORT ?? 3000);
 
 app.listen(PORT, () => {
   console.error(`[MotkoAI Onboarding] Server running at ${process.env.APP_URL}`);
