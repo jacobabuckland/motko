@@ -1,0 +1,10 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "npm install"
+  },
+  "deploy": {
+    "startCommand": "node onboarding/server.js",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
